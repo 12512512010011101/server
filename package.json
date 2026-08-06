@@ -1,0 +1,17 @@
+{
+  "name": "canvas-game-mp-server",
+  "version": "1.0.0",
+  "description": "Server co-op buat Canvas Roguelike - Fase 1: sync posisi pemain",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.3"
+  }
+}
